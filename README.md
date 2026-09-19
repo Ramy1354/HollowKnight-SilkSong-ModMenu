@@ -1,14 +1,26 @@
-﻿# HollowKnight-SilkSong-ModMenu
-This Mod Menu is Designed By Me, For it to work you must do these few steps below.
+# Hollow Knight: Silksong — Mod Menu
 
-**Step (1)**
-If you own Silksong by Purchase Or Snatched it off an Unoffical Website, Download Beplenx 5.23, I have it in my Files Section as a ZipFile.
+A custom in-game menu built to sit neatly on top of Silksong.
 
-**Step (2)** 
-Add it to the Game Folder, make sure it's like this.
-<img width="732" height="462" alt="image" src="https://github.com/user-attachments/assets/b1fa370f-a532-46ec-b223-3aa2745cb895" />
-At First you will see a sub Folder, take all the files from inside and then paste it the same path as **Hollow Knight Silksong.exe**
-**Step (3)**
-Run the Game until you reach the Main Menu, Then Close it, Beplenx Will Immediately Generate Mod Folders, Move both **SilksongMenu.dll** and **menu_frame.png** to the Plugins file.
-**Step (4)** 
-Run the Game and Click **F1** or **Insert**.
+## Installation
+
+**You need a legally purchased copy of Hollow Knight: Silksong.**
+
+### 1. Install BepInEx 5.23
+Download the BepInEx 5.23 zip from the Files section of this repository.  
+Extract it, then copy **every file and folder inside** into the same directory as `Hollow Knight Silksong.exe`.
+
+*<img width="732" height="462" alt="image" src="https://github.com/user-attachments/assets/6834c549-e4e1-4d02-8699-4e9f08f8e51e" />
+*
+
+### 2. Let BepInEx create its folders
+Launch the game and wait until the main menu appears, then close it completely.  
+BepInEx will generate its folders automatically.
+
+### 3. Add the menu files
+Move these two files into the newly created `BepInEx/plugins` folder:
+- `SilksongMenu.dll`
+- `menu_frame.png`
+
+### 4. Open the menu
+Start the game again and press **F1** or **Insert**.
